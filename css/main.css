@@ -487,14 +487,15 @@ ul {
   color: var(--blue);
 }
 
+.contacts-list__link:hover:hover .contacts-icon,
+.contacts-list__link:hover.contacts-list__link:focus .contacts-icon, .contacts-list__link:focus:hover .contacts-icon,
+.contacts-list__link:focus.contacts-list__link:focus .contacts-icon {
+  fill: var(--blue);
+}
+
 .contacts-icon {
   fill: var(--grey);
   margin-right: 10px;
-}
-
-.contacts-list__link:hover .contacts-icon,
-.contacts-list__link:focus .contacts-icon {
-  fill: var(--blue);
 }
 
 .active {
